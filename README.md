@@ -1,0 +1,1 @@
+# cloud-stacks-template
