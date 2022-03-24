@@ -1,0 +1,23 @@
+
+.two-col {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.two-col div {
+    width: 50%;
+}
+@media only screen and (max-width: 900px) {
+    body {
+        padding: 0;
+    }
+    .two-col {
+        flex-direction: column;
+    }
+    .two-col div {
+        width: 100%;
+    }
+    .main-wrapper {
+        padding: 5%;
+    }
+}
